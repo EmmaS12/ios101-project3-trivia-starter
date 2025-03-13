@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rr-z4-AhS">
-                                <rect key="frame" x="150" y="405" width="95" height="35"/>
+                                <rect key="frame" x="150" y="269" width="95" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Answer 2"/>
                                 <connections>
@@ -32,7 +32,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USo-hu-HvN">
-                                <rect key="frame" x="149.66666666666666" y="478" width="96" height="35"/>
+                                <rect key="frame" x="149.66666666666666" y="342" width="96" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Answer 3"/>
                                 <connections>
@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uye-8e-JVq">
-                                <rect key="frame" x="149.66666666666666" y="547" width="96" height="35"/>
+                                <rect key="frame" x="149.66666666666666" y="411" width="96" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Answer 4"/>
                                 <connections>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0T-x2-hYw">
-                                <rect key="frame" x="187.66666666666666" y="200" width="20" height="35"/>
+                                <rect key="frame" x="186.66666666666666" y="200" width="20" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="8Ke-hw-0OE"/>
                                 </constraints>
@@ -86,7 +86,7 @@
                             <constraint firstItem="e0T-x2-hYw" firstAttribute="top" secondItem="vGD-6P-uN1" secondAttribute="bottom" constant="20" id="cJ3-QX-2Jm"/>
                             <constraint firstItem="uye-8e-JVq" firstAttribute="top" secondItem="USo-hu-HvN" secondAttribute="bottom" constant="34" id="f78-kF-WTo"/>
                             <constraint firstItem="2Rr-z4-AhS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" constant="1" id="fdO-g2-df4"/>
-                            <constraint firstItem="2Rr-z4-AhS" firstAttribute="top" secondItem="e0T-x2-hYw" secondAttribute="bottom" constant="170" id="hRh-gF-6Qv"/>
+                            <constraint firstItem="2Rr-z4-AhS" firstAttribute="top" secondItem="e0T-x2-hYw" secondAttribute="bottom" constant="34" id="hRh-gF-6Qv"/>
                             <constraint firstItem="vGD-6P-uN1" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" constant="13" id="lID-R8-z2s"/>
                             <constraint firstItem="uye-8e-JVq" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="lb0-Ws-zye"/>
                             <constraint firstItem="e0T-x2-hYw" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" constant="1" id="nme-5Z-NXC"/>

@@ -1,8 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hEA-Jx-K55">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="keL-om-B7I">
+            <objects>
+                <viewController id="hEA-Jx-K55" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rOb-b3-Wwq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question goes here?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWq-qH-JmP">
+                                <rect key="frame" x="119.33333333333333" y="139" width="156.66666666666669" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaM-yj-BmE">
+                                <rect key="frame" x="151" y="300.33333333333337" width="93" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Answer 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljP-JQ-uPn">
+                                <rect key="frame" x="149.66666666666666" y="410.33333333333326" width="96" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Answer 3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3RV-Rs-8CR">
+                                <rect key="frame" x="150" y="355.33333333333337" width="95" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Answer 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TX9-Ez-cqo">
+                                <rect key="frame" x="149.66666666666666" y="465.33333333333326" width="96" height="34.99999999999801"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Answer 4"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="e9h-fD-dj4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TX9-Ez-cqo" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" id="4zu-CQ-MeI"/>
+                            <constraint firstItem="3RV-Rs-8CR" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="BRn-ZW-4bf"/>
+                            <constraint firstItem="EWq-qH-JmP" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" id="DBD-O1-Jw8"/>
+                            <constraint firstItem="EWq-qH-JmP" firstAttribute="top" secondItem="e9h-fD-dj4" secondAttribute="top" constant="80" id="Dwv-4N-fRB"/>
+                            <constraint firstItem="ljP-JQ-uPn" firstAttribute="top" secondItem="3RV-Rs-8CR" secondAttribute="bottom" constant="20" id="EYB-Dj-BEe"/>
+                            <constraint firstItem="TX9-Ez-cqo" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="FQp-9w-Nnf"/>
+                            <constraint firstItem="IaM-yj-BmE" firstAttribute="top" secondItem="EWq-qH-JmP" secondAttribute="bottom" constant="20" id="Faa-6W-t8o"/>
+                            <constraint firstItem="IaM-yj-BmE" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" id="QIJ-kz-QH4"/>
+                            <constraint firstItem="TX9-Ez-cqo" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="Ra4-pq-Ziu"/>
+                            <constraint firstItem="TX9-Ez-cqo" firstAttribute="top" secondItem="3RV-Rs-8CR" secondAttribute="bottom" constant="20" id="Wu8-Al-Cpj"/>
+                            <constraint firstItem="TX9-Ez-cqo" firstAttribute="top" secondItem="ljP-JQ-uPn" secondAttribute="bottom" constant="20" id="XSi-gS-ju1"/>
+                            <constraint firstItem="ljP-JQ-uPn" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="YHr-IK-sfJ"/>
+                            <constraint firstItem="3RV-Rs-8CR" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" id="eWv-UC-Dc7"/>
+                            <constraint firstItem="IaM-yj-BmE" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="jMz-sF-Bn0"/>
+                            <constraint firstItem="IaM-yj-BmE" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="jWK-iL-KrE"/>
+                            <constraint firstItem="3RV-Rs-8CR" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="nUS-Bj-kv7"/>
+                            <constraint firstItem="EWq-qH-JmP" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="sca-MW-ueJ"/>
+                            <constraint firstItem="ljP-JQ-uPn" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" id="swz-Mj-ovg"/>
+                            <constraint firstItem="3RV-Rs-8CR" firstAttribute="top" secondItem="IaM-yj-BmE" secondAttribute="bottom" constant="20" id="yjY-Lp-m7C"/>
+                            <constraint firstItem="ljP-JQ-uPn" firstAttribute="centerX" secondItem="rOb-b3-Wwq" secondAttribute="centerX" constant="1" id="zmi-E1-hpy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="klb-7L-3Cm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
